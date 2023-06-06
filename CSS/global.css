@@ -1,72 +1,55 @@
-.container-index{
-    display: flex;
+/*
+Voilà les couleurs du site sous forme de variable
+Pour pouvoir les utiliser il suffit de faire comme ceci : 
+background-color: var(--primary-color)
+*/
+:root{
+    --primary-color : #DBA473;
+    --secondary-color : #1C232C;
+    --accent-color : #59413F;
+    --primary-font : 'Poppins';
+    --secondary-font : 'saonara';
+    --accent-font: 'muellerhoff';
 }
 
-.container-search{
-    display: flex;
-    flex-direction: row;
-    width: 1000px;
+@font-face {
+    font-family: 'saonara';  /* Remplacez "NomDeLaPolice" par le nom que vous souhaitez donner à la police */
+    src: url(./fonts/MADE_SAONARA_PERSONAL_USE/MADE\ SAONARA\ PERSONAL\ USE.otf);  /* Indiquez le chemin vers le fichier .ttf ou .otf de la police */
+}
+@font-face {
+    font-family: 'muellerhoff';  /* Remplacez "NomDeLaPolice" par le nom que vous souhaitez donner à la police */
+    src: url(./fonts/Great_VibesHerr_Von_MuellerhoffKarlaOpen_SansPoppins/Herr_Von_Muellerhoff/HerrVonMuellerhoff-Regular.ttf);  /* Indiquez le chemin vers le fichier .ttf ou .otf de la police */
 }
 
-b{
-    display: none;
+h1{
+    font-family: 'saonara';
+    font-size: 9.625rem;
 }
 
-.btn-post{
-    background-color: #08A8F4;
-    padding: 5px;
-    border-radius: 18px;
-}
-
-.sup{
-    background-color: red!important;
-}
-
-.middle-second-right{
-    background-color: rgba(44, 44, 44, 0.3);
-    border-radius: 16px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 24px;
-    padding-left: 32px;
-    padding-bottom: 32px;
-    padding-right: 32px;
-    width: 700px;
-    margin: 0 auto;
-    margin-top: 10px!important;
-}
-
-h1, p, h6, h3{
-    color: white;
+h2{
+    font-family: 'saonara';
+    font-size: 5.5rem;
 }
 
 h3{
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
 }
 
-.container-central{
-    margin: 0 auto;
+h4, .info-right>li, .info-left>li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 
-.bar-search-tag{
-    width: 200px;
-    margin: 0 auto;
-    border: 0;
-    border-radius: 15px;
-    margin-top: 10px ;
-    height: 30px;
-    background-color: rgba(217, 217, 217, 0.1);
-    margin-bottom: 20px;
+li{
+    list-style: none;
 }
 
-.btn-search-tag{
-    width: 150px;
-    color: white;
-    margin: 0 auto;
-    background-color: #08A8F4;
-    padding: 6px;
-    border-radius: 15px;
-    border: 0;
-    margin-top: 20px;
+.container-index{
+    margin: 0 86px;
+}
+
+body{
+    margin: 0;
+    background-color: var(--secondary-color);
 }
