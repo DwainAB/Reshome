@@ -11,5 +11,7 @@
             "email": "bacquartl@icloud.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-yaml": "*"
+    }
 }
