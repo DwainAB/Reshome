@@ -8,6 +8,10 @@
     <link href="../CSS/publish-post.css" rel="stylesheet"/>
     <link href="../CSS/navbar.css" rel="stylesheet"> 
     <link href="../CSS/Header.css" rel="stylesheet"> 
+    <link href="../CSS/Carousel.css" rel="stylesheet"> 
+    <link href="../CSS/Discovery.css" rel="stylesheet"> 
+    <link href="../CSS/Search-section.css" rel="stylesheet"> 
+    <link href="../CSS/SectionChoice.css" rel="stylesheet"> 
     <link href="../CSS/global.css" rel="stylesheet"> 
     <title>Document</title>
 </head>
