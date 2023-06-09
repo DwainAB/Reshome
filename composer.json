@@ -1,0 +1,15 @@
+{
+    "name": "hetic/reshome-h",
+    "autoload": {
+        "psr-4": {
+            "Hetic\\ReshomeH\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Léo",
+            "email": "bacquartl@icloud.com"
+        }
+    ],
+    "require": {}
+}
