@@ -1,7 +1,3 @@
-<?php 
-require('actions/users/securityAction.php');
-require('actions/posts/ShowAllPostsAction.php');
-?>
 <!DOCTYPE html>
 <html lang="fr"> 
 <?php include 'includes/head.php'; ?>
