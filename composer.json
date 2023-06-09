@@ -1,8 +1,8 @@
 {
-    "name": "leobacquart/reshome_hetic",
+    "name": "hetic/reshome-h",
     "autoload": {
         "psr-4": {
-            "Leobacquart\\ReshomeHetic\\": "src/"
+            "Hetic\\ReshomeH\\": "src/"
         }
     },
     "authors": [
