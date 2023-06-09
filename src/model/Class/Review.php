@@ -1,49 +1,61 @@
 <?php
 
-class Review {
+namespace Hetic\ReshomeH\Model\Class;
+class Review
+{
     private $announce_id;
     private $user_id;
     private $rate;
     private $comment;
     private $review_id;
 
-    public function getAnnounceId() {
+    public function getAnnounceId()
+    {
         return $this->announce_id;
     }
 
-    public function setAnnounceId($announce_id) {
+    public function setAnnounceId($announce_id)
+    {
         $this->announce_id = $announce_id;
     }
 
-    public function getUserId() {
+    public function getUserId()
+    {
         return $this->user_id;
     }
 
-    public function setUserId($user_id) {
+    public function setUserId($user_id)
+    {
         $this->user_id = $user_id;
     }
 
-    public function getRate() {
+    public function getRate()
+    {
         return $this->rate;
     }
 
-    public function setRate($rate) {
+    public function setRate($rate)
+    {
         $this->rate = $rate;
     }
 
-    public function getComment() {
+    public function getComment()
+    {
         return $this->comment;
     }
 
-    public function setComment($comment) {
+    public function setComment($comment)
+    {
         $this->comment = $comment;
     }
 
-    public function getReviewId() {
+    public function getReviewId()
+    {
         return $this->review_id;
     }
 
-    public function setReviewId($review_id) {
+    public function setReviewId($review_id)
+    {
         $this->review_id = $review_id;
     }
 }
