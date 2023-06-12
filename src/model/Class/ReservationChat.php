@@ -1,19 +1,12 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class ReservationChat
+use Fano\Reshome\model\Bases\BaseClass;
+
+class ReservationChat extends BaseClass
 {
     private $reservation_id;
     private $chat_id;
-
-    public function __construct($data = [])
-    {
-        foreach ($data as $key => $value) {
-            if (property_exists($this, $key)) {
-                $this->$key = $value;
-            }
-        }
-    }
 
     public function getReservationId()
     {

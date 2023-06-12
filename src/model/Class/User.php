@@ -1,7 +1,9 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class User
+use Fano\Reshome\model\Bases\BaseClass;
+
+class User extends BaseClass
 {
     private $first_name;
     private $last_name;

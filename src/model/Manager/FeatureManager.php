@@ -2,12 +2,11 @@
 
 namespace Fano\Reshome\model\Manager;
 
-use Hetic\ReshomeH\Model\Class\Announce;
+use Fano\Reshome\model\Bases\BaseManager;
 use Hetic\ReshomeH\Model\Class\Feature;
 use Hetic\ReshomeH\model\Manager\AbstractManager;
-use MongoDB\Driver\Manager;
 
-class FeatureManager extends AbstractManager
+class FeatureManager extends BaseManager
 {
     public function getAnnounceFeaturesById(int $announce_id) : Feature
     {

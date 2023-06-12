@@ -2,9 +2,10 @@
 
 namespace Fano\Reshome\model\Manager;
 
+use Fano\Reshome\model\Bases\BaseManager;
 use Hetic\ReshomeH\Model\Class\Picture;
 
-class PictureManager extends AbstractManager
+class PictureManager extends BaseManager
 {
     public function getAnnouncePicturesById(int $announce_id) : Picture
     {

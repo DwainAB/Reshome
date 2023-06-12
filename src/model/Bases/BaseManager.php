@@ -1,10 +1,10 @@
 <?php
 
-namespace Hetic\ReshomeH\model\Manager;
+namespace Fano\Reshome\model\Bases;
 
 use Hetic\ReshomeH\factories\PDOFactory;
 
-abstract class AbstractManager
+abstract class BaseManager
 {
     protected \PDO $db;
     public function __construct()

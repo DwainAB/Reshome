@@ -1,7 +1,9 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class UserFavorite
+use Fano\Reshome\model\Bases\BaseClass;
+
+class UserFavorite extends BaseClass
 {
     private $user_id;
     private $announce_id;

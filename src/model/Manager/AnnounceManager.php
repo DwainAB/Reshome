@@ -2,9 +2,10 @@
 
 namespace Hetic\ReshomeH\model\Manager;
 
+use Fano\Reshome\model\Bases\BaseManager;
 use Hetic\ReshomeH\Model\Class\Announce;
 
-class AnnounceManager extends AbstractManager
+class AnnounceManager extends BaseManager
 {
     public function addAnnounce(Announce $announce)
     {

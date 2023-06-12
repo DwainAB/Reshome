@@ -1,7 +1,9 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class Announce
+use Fano\Reshome\model\Bases\BaseClass;
+
+class Announce extends BaseClass
 {
     private string $title;
     private string $description;
@@ -12,15 +14,6 @@ class Announce
     private string $type;
     private int $area;
     private int $id;
-
-    public function __construct($data = [])
-    {
-        foreach ($data as $key => $value) {
-            if (property_exists($this, $key)) {
-                $this->$key = $value;
-            }
-        }
-    }
 
     public function getTitle(): string
     {

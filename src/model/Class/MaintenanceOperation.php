@@ -1,20 +1,13 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class MaintenanceOperation
+use Fano\Reshome\model\Bases\BaseClass;
+
+class MaintenanceOperation extends BaseClass
 {
     private $announce_id;
     private $status;
     private $operation_id;
-
-    public function __construct($data = [])
-    {
-        foreach ($data as $key => $value) {
-            if (property_exists($this, $key)) {
-                $this->$key = $value;
-            }
-        }
-    }
 
     public function getAnnounceId()
     {

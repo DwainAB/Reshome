@@ -1,7 +1,9 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class Review
+use Fano\Reshome\model\Bases\BaseClass;
+
+class Review extends BaseClass
 {
     private $announce_id;
     private $user_id;

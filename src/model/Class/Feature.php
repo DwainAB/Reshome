@@ -1,19 +1,12 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class Feature
+use Fano\Reshome\model\Bases\BaseClass;
+
+class Feature extends BaseClass
 {
     private $content;
     private $feature_id;
-
-    public function __construct($data = [])
-    {
-        foreach ($data as $key => $value) {
-            if (property_exists($this, $key)) {
-                $this->$key = $value;
-            }
-        }
-    }
 
     public function getContent()
     {

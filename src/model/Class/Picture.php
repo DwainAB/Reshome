@@ -1,20 +1,13 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-class Picture
+use Fano\Reshome\model\Bases\BaseClass;
+
+class Picture extends BaseClass
 {
     private $announce_id;
     private $picture_path;
     private $picture_id;
-
-    public function __construct($data = [])
-    {
-        foreach ($data as $key => $value) {
-            if (property_exists($this, $key)) {
-                $this->$key = $value;
-            }
-        }
-    }
 
     public function getAnnounceId()
     {
