@@ -40,11 +40,6 @@ class Feature
         // Code pour créer une nouvelle caractéristique
     }
 
-    public static function find($feature_id)
-    {
-        // Code pour trouver une caractéristique par son ID de caractéristique
-    }
-
     public function update()
     {
         // Code pour mettre à jour cette caractéristique
