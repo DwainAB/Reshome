@@ -1,10 +1,10 @@
 <?php
 
-namespace Fano\Reshome\model\Manager;
+namespace Hetic\ReshomeH\Model\Manager;
 
-use Hetic\ReshomeH\model\Bases\BaseManager;
+use Hetic\ReshomeH\Model\Bases\BaseManager;
 use Hetic\ReshomeH\Model\Class\Feature;
-use Hetic\ReshomeH\model\Manager\AbstractManager;
+use Hetic\ReshomeH\Model\Manager\AbstractManager;
 
 class FeatureManager extends BaseManager
 {

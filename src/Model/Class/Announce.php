@@ -1,6 +1,6 @@
 <?php
 
-namespace Hetic\ReshomeH\model\Class;
+namespace Hetic\ReshomeH\Model\Class;
 use Hetic\ReshomeH\model\Bases\BaseClass;
 
 class Announce extends BaseClass

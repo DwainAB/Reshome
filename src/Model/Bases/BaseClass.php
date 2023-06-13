@@ -1,6 +1,6 @@
 <?php
 
-namespace Hetic\ReshomeH\model\Bases;
+namespace Hetic\ReshomeH\Model\Bases;
 
 abstract class BaseClass
 {

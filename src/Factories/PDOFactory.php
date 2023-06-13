@@ -1,6 +1,6 @@
 <?php
 
-namespace Hetic\ReshomeH\factories;
+namespace Hetic\ReshomeH\Factories;
 class PDOFactory
 {
     private static string $dsn = 'mysql:dbname=reshome;host=127.0.0.1';

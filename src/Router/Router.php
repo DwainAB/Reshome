@@ -1,6 +1,6 @@
 <?php
 
-namespace Hetic\ReshomeH\router;
+namespace Hetic\ReshomeH\Router;
 
 class Router
 {

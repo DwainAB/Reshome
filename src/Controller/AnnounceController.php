@@ -1,8 +1,8 @@
 <?php
 
-namespace Hetic\ReshomeH\controller;
+namespace Hetic\ReshomeH\Controller;
 
-use Hetic\ReshomeH\model\Manager\AnnounceManager;
+use Hetic\ReshomeH\Model\Manager\AnnounceManager;
 
 class AnnounceController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hetic\ReshomeH\model\Manager;
+namespace Hetic\ReshomeH\Model\Manager;
 
 use Hetic\ReshomeH\Model\Bases\BaseManager;
 use Hetic\ReshomeH\Model\Class\Announce;
