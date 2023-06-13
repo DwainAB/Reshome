@@ -1,6 +1,7 @@
 <?php foreach ($announces as $announce): ?>
-<div class="announce">
+<a class="announce" href="?p=show&id=<?= $announce->getAnnounceId() ?>">
+    <img src="<?= $image; ?>" alt="">
     <h2><?= $announce->getTitle() ?></h2>
     <p><?= $announce->getDescription() ?></p>
-</div>
+</a>
 <?php endforeach; ?>

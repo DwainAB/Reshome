@@ -5,12 +5,16 @@ isset($_GET['p']) ? $path = $_GET['p'] : $path = null;
 
 switch ($path) {
     case null:
-        $controller = new \Hetic\ReshomeH\Controller\AnnounceController();
-        $controller->index('Annonces');
+        $controller = new \Hetic\ReshomeH\Controller\FrontController();
+        $controller->executeIndex();
         break;
 
     case 'show':
-        $controller = new \Hetic\ReshomeH\Controller\AnnounceController();
-        $controller->index('Annonces');
+        if (isset($_GET['id'])) {
+            $controller = new \Hetic\ReshomeH\Controller\FrontController();
+            $controller->executeDetail(htmlspecialchars($_GET['id']));
+        } else {
+            new \Hetic\ReshomeH\Controller\ErrorController(404, 'noId');
+        }
         break;
 }

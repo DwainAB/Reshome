@@ -29,18 +29,16 @@ class AnnounceManager extends BaseManager
     {
         $query = $this->db->query("SELECT * FROM Announce");
         $query->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, Announce::class);
-
         return $query->fetchAll();
     }
 
-    public function getAnnounceById(int $id) :\PDO
+    public function getAnnounceById(int $id) :object
     {
-        $query = $this->db->prepare("SELECT * FROM Announce WHERE id = :id");
-        $query->bindValue(":id", $id);
-        $query->execute();
-        $query->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, Announce::class);
-
-        return $query->fetch();
+        $query = 'SELECT * FROM Announce WHERE announce_id = :id';
+        $stmt = $this->db->prepare($query);
+        $stmt->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, Announce::class);
+        $stmt->execute(['id' => $id]);
+        return $stmt->fetch();
     }
 
     public function update()
