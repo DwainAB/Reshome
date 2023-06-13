@@ -13,11 +13,13 @@ class AnnounceController
     {
         $manager = new AnnounceManager();
         $announces = $manager->getAllAnnounces();
-        $this->render('Annonces', $announces);
     }
 
-    public function render(string $title, array $announces) : mixed
+    public function index(string $title) : mixed
     {
+        $manager = new AnnounceManager();
+        $announces = $manager->getAllAnnounces();
+
         $viewDir = dirname(__DIR__, 1) . '/View';
         $template = $viewDir . '/Templates/skeleton.php';
         $view = $viewDir . '/announce.php';
