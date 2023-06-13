@@ -5,15 +5,16 @@ use Hetic\ReshomeH\model\Bases\BaseClass;
 
 class Announce extends BaseClass
 {
-    private string $title;
-    private string $description;
-    private string $neighborhood;
-    private int $arrondissement;
-    private int $bedroom_number;
-    private int $capacity;
-    private string $type;
-    private int $area;
-    private int $announce_id;
+    protected string $title;
+    protected string $description;
+    protected string $neighborhood;
+    protected int $arrondissement;
+    protected int $bedroom_number;
+    protected int $capacity;
+    protected string $type;
+    protected int $area;
+    protected float $price;
+    protected int $id;
 
     public function getTitle(): string
     {
@@ -95,13 +96,23 @@ class Announce extends BaseClass
         $this->area = $area;
     }
 
-    public function getAnnounceId(): int
+    public function getId(): int
     {
-        return $this->announce_id;
+        return $this->id;
     }
 
-    public function setAnnounceId($announce_id): void
+    public function setId($id): void
     {
-        $this->announce_id = $announce_id;
+        $this->id = $id;
+    }
+
+    public function getPrice(): float
+    {
+        return $this->price;
+    }
+
+    public function setPrice(float $price): void
+    {
+        $this->price = $price;
     }
 }

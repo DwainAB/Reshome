@@ -9,7 +9,7 @@ class AnnounceManager extends BaseManager
 {
     public function addAnnounce(Announce $announce)
     {
-        $query = $this->db->prepare("INSERT INTO Announce (title, description, neighborhood, arrondissement, bedroom_number, capacity, `type`, area) VALUES (:title, :description, :neighborhood, :arrondissement, :bedromm_number, :capacity, :`type`, :area)");
+        $query = $this->db->prepare("INSERT INTO Announce (title, description, neighborhood, arrondissement, bedroom_number, capacity, `type`, area, price) VALUES (:title, :description, :neighborhood, :arrondissement, :bedroom_number, :capacity, :type, :area, :price)");
 
         $query->bindValue(":title", $announce->getTitle());
         $query->bindValue(":description", $announce->getDescription());
@@ -19,6 +19,7 @@ class AnnounceManager extends BaseManager
         $query->bindValue(":capacity", $announce->getCapacity());
         $query->bindValue(":type", $announce->getType());
         $query->bindValue(":area", $announce->getArea());
+        $query->bindValue(":price", $announce->getPrice());
 
         $query->execute();
     }

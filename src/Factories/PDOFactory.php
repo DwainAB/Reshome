@@ -3,9 +3,9 @@
 namespace Hetic\ReshomeH\Factories;
 class PDOFactory
 {
-    private static string $dsn = 'mysql:dbname=reshome;host=127.0.0.1';
+    private static string $dsn = 'mysql:dbname=reshome;host=localhost';
     private static string $username = 'root';
-    private static string $password = "kZf'1B7oF&xTp;Km";
+    private static string $password = "root";
 
     private static function getMysqlConnection(): \PDO
     {
