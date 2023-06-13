@@ -1,7 +1,0 @@
-{
-  "index": {
-    "path": "/",
-    "controller": "IndexController",
-    "action": "Index"
-  }
-}
