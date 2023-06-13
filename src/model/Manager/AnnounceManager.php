@@ -2,7 +2,7 @@
 
 namespace Hetic\ReshomeH\model\Manager;
 
-use Fano\Reshome\model\Bases\BaseManager;
+use Hetic\ReshomeH\Model\Bases\BaseManager;
 use Hetic\ReshomeH\Model\Class\Announce;
 
 class AnnounceManager extends BaseManager
@@ -26,7 +26,7 @@ class AnnounceManager extends BaseManager
     public function getAllAnnounces() :array
     {
         $query = $this->db->query("SELECT * FROM Announce");
-        $query->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, "Announce");
+        $query->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, Announce::class);
 
         return $query->fetchAll();
     }
@@ -36,7 +36,7 @@ class AnnounceManager extends BaseManager
         $query = $this->db->prepare("SELECT * FROM Announce WHERE id = :id");
         $query->bindValue(":id", $id);
         $query->execute();
-        $query->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, "Announce");
+        $query->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, Announce::class);
 
         return $query->fetch();
     }

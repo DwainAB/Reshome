@@ -1,7 +1,7 @@
 <?php
 
-namespace Hetic\ReshomeH\Model\Class;
-use Fano\Reshome\model\Bases\BaseClass;
+namespace Hetic\ReshomeH\model\Class;
+use Hetic\ReshomeH\model\Bases\BaseClass;
 
 class Announce extends BaseClass
 {
@@ -13,7 +13,7 @@ class Announce extends BaseClass
     private int $capacity;
     private string $type;
     private int $area;
-    private int $id;
+    private int $announce_id;
 
     public function getTitle(): string
     {
@@ -97,11 +97,11 @@ class Announce extends BaseClass
 
     public function getAnnounceId(): int
     {
-        return $this->id;
+        return $this->announce_id;
     }
 
     public function setAnnounceId($announce_id): void
     {
-        $this->id = $announce_id;
+        $this->announce_id = $announce_id;
     }
 }

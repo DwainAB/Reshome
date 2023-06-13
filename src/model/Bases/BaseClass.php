@@ -1,6 +1,6 @@
 <?php
 
-namespace Fano\Reshome\model\Bases;
+namespace Hetic\ReshomeH\model\Bases;
 
 abstract class BaseClass
 {

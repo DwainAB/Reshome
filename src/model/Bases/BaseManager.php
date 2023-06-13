@@ -1,6 +1,6 @@
 <?php
 
-namespace Fano\Reshome\model\Bases;
+namespace Hetic\ReshomeH\model\Bases;
 
 use Hetic\ReshomeH\factories\PDOFactory;
 
@@ -9,6 +9,6 @@ abstract class BaseManager
     protected \PDO $db;
     public function __construct()
     {
-        $this->db = PDOFactory::getConnection();
+        $this->db = (new \Hetic\ReshomeH\factories\PDOFactory)->getConnection();
     }
 }

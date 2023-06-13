@@ -1,7 +1,7 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-use Fano\Reshome\model\Bases\BaseClass;
+use Hetic\ReshomeH\model\Bases\BaseClass;
 
 class AnnounceFeature extends BaseClass
 {
