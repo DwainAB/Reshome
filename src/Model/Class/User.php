@@ -3,6 +3,8 @@
 namespace Hetic\ReshomeH\Model\Class;
 use Hetic\ReshomeH\model\Bases\BaseClass;
 
+require_once '../../Factories/PDOFactory.php';
+
 class User extends BaseClass
 {
     private $first_name;
@@ -18,6 +20,17 @@ class User extends BaseClass
     private $is_logistic;
     private $is_admin;
     private $user_id;
+
+    private $userModel;
+
+    public function __construct()
+    {
+        $this->userModel = new User;
+    }
+
+    public function register(){
+        $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+    }
 
     public function getFirstName()
     {

@@ -7,6 +7,10 @@ class PDOFactory
     private static string $username = 'root';
     private static string $password = "root";
 
+    // Ajout PDO Object
+    private $stmt;
+    private $error;
+
     private static function getMysqlConnection(): \PDO
     {
         try {
@@ -25,5 +29,7 @@ class PDOFactory
     {
         return self::getMysqlConnection();
     }
+
+
 }
 

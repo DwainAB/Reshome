@@ -7,7 +7,7 @@
         </figure>
         <?php endforeach; ?>
     </div>
-    <div class="field">
+    <div>
         <a href="?p=show&id=<?= $announce->getAnnounceId() ?>">
             <h2><?= $announce->getTitle() ?></h2>
             <p><?= $announce->getDescription() ?></p>
