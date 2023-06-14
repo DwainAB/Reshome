@@ -5,9 +5,9 @@ use Hetic\ReshomeH\model\Bases\BaseClass;
 
 class Picture extends BaseClass
 {
-    private $announce_id;
-    private $picture_path;
-    private $picture_id;
+    private int $announce_id;
+    private string $picture_path;
+    private int $picture_id;
 
     public function getAnnounceId()
     {
@@ -39,19 +39,4 @@ class Picture extends BaseClass
         $this->picture_id = $picture_id;
     }
 
-    public static function create($data)
-    {
-    }
-
-    public static function find($picture_id)
-    {
-    }
-
-    public function update()
-    {
-    }
-
-    public function delete()
-    {
-    }
 }

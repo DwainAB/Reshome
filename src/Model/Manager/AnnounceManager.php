@@ -42,15 +42,29 @@ class AnnounceManager extends BaseManager
         return $query->fetch();
     }
 
-    public function update()
+    public function updateAnnounce(Announce $announce) :bool
     {
+        $query = $this->db->prepare("UPDATE Announce SET title = :title, description = :description, neighborhood = : neighborhood, arrondissement = :arrondissement, bedroom_number = :bedroom_number, capacity= : capacity, `type` = :type, area = :area, price = :price WHERE id = :announceId");
 
+        $query->bindValue(":title", $announce->getTitle());
+        $query->bindValue(":description", $announce->getDescription());
+        $query->bindValue(":neighborhood", $announce->getNeighborhood());
+        $query->bindValue(":arrondissement", $announce->getArrondissement());
+        $query->bindValue(":bedroom_number", $announce->getBedroomNumber());
+        $query->bindValue(":capacity", $announce->getCapacity());
+        $query->bindValue(":type", $announce->getType());
+        $query->bindValue(":area", $announce->getArea());
+        $query->bindValue(":price", $announce->getPrice());
+        $query->bindValue(":announceId", $announce->getId());
+
+        return $query->execute();
     }
 
     public function deleteAnnounceByID(int $id) :bool
     {
         $query = $this->db->prepare("DELETE * FROM Announce WHERE id = :id");
         $query->bindValue(":id", $id);
+
         return $query->execute();
     }
 }

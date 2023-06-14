@@ -7,7 +7,7 @@ use Hetic\ReshomeH\Model\Class\Picture;
 
 class PictureManager extends BaseManager
 {
-    public function getAnnouncePicturesById(int $announce_id) : Picture
+    public function getPicturesByAnnounceId(int $announce_id) : array
     {
         $query = $this->db->prepare("SELECT * FROM Picture WHERE announce_id =:announceId");
         $query->bindValue(":announceId", $announce_id);

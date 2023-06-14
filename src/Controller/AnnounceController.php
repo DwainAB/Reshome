@@ -12,7 +12,11 @@ class AnnounceController
     {
         $manager = new AnnounceManager();
         $announces = $manager->getAllAnnounces();
-        var_dump($announces);
+        ?>
+<pre>
+    <?= var_dump($announces);?>
+</pre>
+       <?php
     }
 
 
