@@ -10,7 +10,7 @@ switch ($path) {
         break;
 
     case 'show':
-        if (isset($_GET['id'])) {
+        if (isset($_GET['id']) && intval($_GET['id']) !== 0) {
             $controller = new \Hetic\ReshomeH\Controller\FrontController();
             $controller->executeDetail(htmlspecialchars($_GET['id']));
         } else {

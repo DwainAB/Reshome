@@ -15,6 +15,7 @@ class Announce extends BaseClass
     private int $area;
     private int $announce_id;
     private int $price;
+    private array $pictures;
 
     public function getTitle(): string
     {
@@ -120,5 +121,21 @@ class Announce extends BaseClass
     public function setPrice(int $price): void
     {
         $this->price = $price;
+    }
+
+    /**
+     * @return array
+     */
+    public function getPictures(): array
+    {
+        return $this->pictures;
+    }
+
+    /**
+     * @param array $pictures
+     */
+    public function setPictures(array $pictures): void
+    {
+        $this->pictures = $pictures;
     }
 }

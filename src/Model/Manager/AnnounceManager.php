@@ -4,6 +4,7 @@ namespace Hetic\ReshomeH\Model\Manager;
 
 use Hetic\ReshomeH\Model\Bases\BaseManager;
 use Hetic\ReshomeH\Model\Class\Announce;
+use Hetic\ReshomeH\Model\Class\Picture;
 
 class AnnounceManager extends BaseManager
 {
@@ -39,6 +40,15 @@ class AnnounceManager extends BaseManager
         $stmt->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, Announce::class);
         $stmt->execute(['id' => $id]);
         return $stmt->fetch();
+    }
+
+    public function getAnnouncePictures(int $id) : array
+    {
+        $query = 'SELECT * FROM Picture WHERE announce_id = :id';
+        $stmt = $this->db->prepare($query);
+        $stmt->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE, Picture::class);
+        $stmt->execute(['id' => $id]);
+        return $stmt->fetchAll();
     }
 
     public function update()

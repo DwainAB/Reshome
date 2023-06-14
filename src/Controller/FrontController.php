@@ -19,6 +19,11 @@ class FrontController extends AbstractController
         $announces = $manager->getAllAnnounces();
         $title = 'Home';
 
+        foreach ($announces as $announce) {
+            $pictureArray = $manager->getAnnouncePictures($announce->getAnnounceId());
+            $announce->setPictures($pictureArray);
+        }
+
         $template = $this->templateDir . 'skeleton.php';
         $view = $this->viewDir . 'announceBox.php';
 
@@ -32,6 +37,10 @@ class FrontController extends AbstractController
     {
         $manager = new AnnounceManager();
         $announce = $manager->getAnnounceById($id);
+
+        $pictureArray = $manager->getAnnouncePictures($announce->getAnnounceId());
+        $announce->setPictures($pictureArray);
+
 
         $template = $this->templateDir . 'skeleton.php';
         $view = $this->viewDir . 'announceDetails.php';

@@ -1,57 +1,58 @@
 <?php
 
 namespace Hetic\ReshomeH\Model\Class;
-use Hetic\ReshomeH\model\Bases\BaseClass;
 
-class Picture extends BaseClass
+class Picture extends \Hetic\ReshomeH\Model\Bases\BaseClass
 {
-    private $announce_id;
-    private $picture_path;
-    private $picture_id;
+    private int $picture_id;
+    private int $announce_id;
+    private string $picture_path;
 
-    public function getAnnounceId()
-    {
-        return $this->announce_id;
-    }
-
-    public function setAnnounceId($announce_id)
-    {
-        $this->announce_id = $announce_id;
-    }
-
-    public function getPicturePath()
-    {
-        return $this->picture_path;
-    }
-
-    public function setPicturePath($picture_path)
-    {
-        $this->picture_path = $picture_path;
-    }
-
-    public function getPictureId()
+    /**
+     * @return int
+     */
+    public function getPictureId(): int
     {
         return $this->picture_id;
     }
 
-    public function setPictureId($picture_id)
+    /**
+     * @param int $picture_id
+     */
+    public function setPictureId(int $picture_id): void
     {
         $this->picture_id = $picture_id;
     }
 
-    public static function create($data)
+    /**
+     * @return int
+     */
+    public function getAnnounceId(): int
     {
+        return $this->announce_id;
     }
 
-    public static function find($picture_id)
+    /**
+     * @param int $announce_id
+     */
+    public function setAnnounceId(int $announce_id): void
     {
+        $this->announce_id = $announce_id;
     }
 
-    public function update()
+    /**
+     * @return string
+     */
+    public function getPicturePath(): string
     {
+        return $this->picture_path;
     }
 
-    public function delete()
+    /**
+     * @param string $picture_path
+     */
+    public function setPicturePath(string $picture_path): void
     {
+        $this->picture_path = $picture_path;
     }
 }
