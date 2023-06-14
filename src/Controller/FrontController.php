@@ -4,6 +4,7 @@ namespace Hetic\ReshomeH\Controller;
 
 use Hetic\ReshomeH\Model\Class\Announce;
 use Hetic\ReshomeH\Model\Manager\AnnounceManager;
+use Hetic\ReshomeH\Utils\Utils;
 
 class FrontController extends AbstractController
 {
@@ -37,9 +38,12 @@ class FrontController extends AbstractController
     {
         $manager = new AnnounceManager();
         $announce = $manager->getAnnounceById($id);
-
+        $reviews = $manager->getAnnounceReviews($id);
+        $rateAvg = Utils::getAverageFromObject($reviews, 'rate');
         $pictureArray = $manager->getAnnouncePictures($announce->getAnnounceId());
         $announce->setPictures($pictureArray);
+
+
 
 
         $template = $this->templateDir . 'skeleton.php';

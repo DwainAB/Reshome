@@ -5,11 +5,13 @@ use Hetic\ReshomeH\model\Bases\BaseClass;
 
 class Review extends BaseClass
 {
+    private $review_id;
     private $announce_id;
     private $user_id;
     private $rate;
     private $comment;
-    private $review_id;
+    private $date;
+
 
     public function getAnnounceId()
     {
@@ -59,5 +61,21 @@ class Review extends BaseClass
     public function setReviewId($review_id)
     {
         $this->review_id = $review_id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * @param mixed $date
+     */
+    public function setDate($date): void
+    {
+        $this->date = $date;
     }
 }

@@ -2,6 +2,7 @@
 
 namespace Hetic\ReshomeH\Controller;
 
+use Hetic\ReshomeH\Utils\Utils;
 use http\Exception\RuntimeException;
 
 abstract class AbstractController
