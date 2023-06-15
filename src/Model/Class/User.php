@@ -30,6 +30,29 @@ class User extends BaseClass
 
     public function register(){
         $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+
+        // init data
+        $data = [
+            'user_id' => trim($_POST['user_id']),
+            'first_name' => trim($_POST['first_name']),
+            'last_name' => trim($_POST['last_name']),
+            'email' => trim($_POST['email']),
+            'phone_number' => trim($_POST['phone_number']),
+            'country' => trim($_POST['country']),
+            'password' => trim($_POST['password']),
+            'confirm_password' => trim($_POST['confirm_password']),
+            
+        ];
+
+        // validate input
+        if(empty($data['user_id']) || empty($data['first_name'])
+        || empty($data['last_name']) || empty($data['email']) 
+        || empty($data['phone_number']) || empty($data['country']) 
+        || empty($data['password']) || empty($data['confirm_password']) ){
+            
+        }
+
+
     }
 
     public function getFirstName()
