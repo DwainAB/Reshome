@@ -16,10 +16,10 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
     .header-title {
     font-family: 'saonara';
-    font-size: 6rem;
+    font-size: 9vw;
     }
 
     .container-header-info{

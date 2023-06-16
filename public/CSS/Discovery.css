@@ -12,7 +12,7 @@
 
 .title-discovery{
     margin: 0 auto;
-    color: white;
+    color: red;
     z-index: 888;
     text-align: center;
     width: clamp(106px, 55%, 840px);
