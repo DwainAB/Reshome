@@ -10,10 +10,32 @@
 .header-title{
     color: white;
     position: absolute;
-    left: 86px;
-    width: 900px;
-    top: 415px;
+    left: 10%;
+    width: auto;
+    top: 40%;
     font-weight: 400;
+}
+
+@media screen and (max-width: 950px) {
+    .header-title {
+    font-family: 'saonara';
+    font-size: 6rem;
+    }
+
+    .container-header-info{
+        display: flex;
+        padding-left: 15px;
+        position: absolute;
+        top: 755px;
+        right: 86px;
+        background-color: white;
+        width: 295px;
+        height: 84px;
+        align-items: center;
+        border-radius: 51px;
+    }
+
+
 }
 
 .header-title-color{
@@ -26,13 +48,13 @@
     display: flex;
     padding-left: 15px;
     position: absolute;
-    top: 755px;
-    right: 86px;
+    top: 80%;
+    right: 5%;
     background-color: white;
-    width: 295px;
+    width: auto;
     height: 84px;
     align-items: center;
-    border-radius: 51px;
+    border-radius: 50px;
 }
 
 .container-header-info img{
@@ -52,4 +74,5 @@ height: 64px;
    line-height: 3px;
    font-size: 1rem;
    font-family: 'poppins';
+   margin-right: 15px;
 }
