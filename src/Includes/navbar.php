@@ -32,6 +32,7 @@
     //    navbar.classList.toggle('open');
     // });
     menuImg.addEventListener('click', function() {
+      navbar.
       navbar.classList.toggle('open');
     });
 </script>
