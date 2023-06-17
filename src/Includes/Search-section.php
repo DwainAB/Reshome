@@ -4,10 +4,10 @@
          SPECIFY <br>THE NUMBER <br> OF BEDROOMS
         </h2>
         <div class="container-btn-search">
-            <button class="btn-search btn-bedrooms">1</button>
-            <button class="btn-search btn-bedrooms">2</button>
-            <button class="btn-search btn-bedrooms">3</button>
-            <button class="btn-search btn-bedrooms">4+</button>
+            <button class="btn-search btn-bedrooms"><h2>1</h2></button>
+            <button class="btn-search btn-bedrooms"><h2>2</h2></button>
+            <button class="btn-search btn-bedrooms"><h2>3</h2></button>
+            <button class="btn-search btn-bedrooms"><h2>4</h2>+</button>
         </div>
         <div class="container-btn-slide">
             <div class="slide slide-color"></div>
