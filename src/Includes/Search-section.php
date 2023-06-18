@@ -7,7 +7,8 @@
             <button class="btn-search btn-bedrooms"><h2>1</h2></button>
             <button class="btn-search btn-bedrooms"><h2>2</h2></button>
             <button class="btn-search btn-bedrooms"><h2>3</h2></button>
-            <button class="btn-search btn-bedrooms"><h2>4</h2>+</button>
+            <button class="btn-search btn-bedrooms"><h2>4</h2></button>
+            <button class="btn-search btn-bedrooms"><h2>+</h2></button>
         </div>
         <div class="container-btn-slide">
             <div class="slide slide-color"></div>
@@ -79,7 +80,7 @@
             <button class="btn-search btn-apart"><h2><img src="./public/CSS/Assets/Arrow 1.png" alt="arrow"></h2></button>
         </div>
         <div class="container-btn-slide">
-            <button class="btn-slide-retry"><img src="./public/CSS/Assets/arrowrotateleft.png" alt="retry"> RETRY</button>
+            <button class="btn-slide-retry"><img src="./public/CSS/Assets/arrowrotateleft.png" alt="retry"> Restart</button>
         </div>
     </div>
 </div>
