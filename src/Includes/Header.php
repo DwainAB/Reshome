@@ -13,3 +13,77 @@
         </div>
     </div>
 </div>
+
+<style>
+    .img-background{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -999;
+}
+
+.header-title{
+    color: white;
+    position: absolute;
+    left: 10%;
+    width: auto;
+    top: 40%;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+    .header-title {
+    font-family: 'saonara';
+    font-size: 9vw;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .container-header-info{
+        display: none;
+    }
+}
+
+.header-title-color{
+    font-family: var(--accent-font);
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+@media screen and (min-width:1120px) {
+.container-header-info{
+    display: flex;
+    padding-left: 15px;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    background-color: white;
+    width: 25%;
+    height: 10%;
+    padding: 5px 5px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.container-header-info img{
+width: 20%;
+height: 80%;
+}
+
+.header-info p{
+   font-size: 1,5vw;
+   font-family: 'poppins';
+}
+}
+
+.header-info-text-color{
+    color: var(--primary-color);
+}
+
+.header-info{
+    margin-left: 20px;
+}
+
+
+</style>
