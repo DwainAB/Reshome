@@ -16,7 +16,7 @@
         <img class="img-nav" src="./public/CSS/Assets/logo.svg" alt="">
 
         <ul class="info-right">
-            <li class="info li-border">SEARCH<span class="img-li-border"><img src="../CSS/Assets/arrowdown.png" alt=""></span></li>
+            <li class="info li-border">SEARCH</span></li>
             <li class="info">LOGIN</li>
             <li class="info">REGISTER</li>
         </ul>
@@ -54,8 +54,6 @@
         transition: left 0.3s ease;
         z-index: 1;
       }
-
-
 
       .info-left, .info-right {
         display: flex;
@@ -130,7 +128,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
+    height: auto;
     border: 2px solid var(--primary-color);
     border-radius: 16px;
     width: 20%;
@@ -141,10 +139,6 @@
     color: black;
 }
 
-.img-li-border{
-    margin-left: 15px;
-    margin-top: 5px;
-} 
 
 .info-left li, .info-right li {
     margin-right: 10px;
@@ -153,7 +147,6 @@
 }
 
 .info-left li:hover, .info-right li:hover {
-    background-color: var(--primary-color);
     color: black;
 }
 

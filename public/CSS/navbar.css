@@ -1,4 +1,4 @@
- .container-navbar{
+     .container-navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,6 +7,7 @@
     margin-top: 0;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+    width:100%;
 }
 
 .navbar-menu, .img-nav2 {
@@ -126,6 +127,5 @@
 }
 
 .info-left li:hover, .info-right li:hover {
-    background-color: var(--primary-color);
     color: black;
 }
