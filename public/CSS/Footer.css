@@ -1,5 +1,5 @@
 footer{
-    padding-top: 50px;
+    padding-top: 5%;
     background-color: var(--secondary-color);
 }
 
@@ -30,12 +30,12 @@ footer{
 }
 
 .container-social{
-    width: 378px;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 20%;
 }
 
 .social{
@@ -49,8 +49,8 @@ footer{
 }
 
 .container-social img{
-    width: 26px;
-    height: 26px;
+    width: 40%;
+    height: 40%;
 }
 
 .mention{
