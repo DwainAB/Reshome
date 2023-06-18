@@ -24,6 +24,6 @@
             <h1 class="title-carousel">Elegant Design</h1>
             <button class="arrowright"><img src="./public/CSS/Assets/arrowright.png" alt="arrow"></button>
         </div>
-        <button class="btn-learn-more">LEARN<br> MORE</button>
+        <button class="btn-learn-more"><h4>LEARN MORE</h4></button>
     </div>
 </div>

@@ -31,6 +31,7 @@
     width: auto;
     top: 40%;
     font-weight: 400;
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -74,6 +75,8 @@ height: 80%;
 .header-info p{
    font-size: 1,5vw;
    font-family: 'poppins';
+   margin: 0;
+   padding: 0;
 }
 }
 
