@@ -1,10 +1,3 @@
-
-<div class="navbar-menu">
-    <img src=".Reshome/public/CSS/Assets/menu.svg" id="btn-menu">
-</div>
-<img class="img-nav2" src="./public/CSS/Assets/logo.svg" alt="" id="img-menu">
-
-
 <div class="container-navbar">
 
         <ul class="info-left">
