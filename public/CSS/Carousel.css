@@ -1,3 +1,4 @@
+
 .carousel-text-color{
   color: var(--primary-color);
   width: 500px;
@@ -76,13 +77,36 @@
   top: 340px;
 }
 
+@media screen and (max-width: 700px) {
+    .arrowright {
+        right: 10%;
+        width: 35px;
+        height: 35px;
+    }
+    .arrowleft {
+        left: 10%;
+        width: 35px;
+        height: 35px;
+    }
+    .arrowright img, .arrowleft img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
 .title-carousel{
   font-weight: 400;
   font-family: var(--accent-font);
   position: absolute;
-  top: 170px;
+  top: 15%;
   left: 36%;
   color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .title-carousel {
+        top: 35%;
+    }
 }
 
 .btn-learn-more{
@@ -102,7 +126,11 @@
   font-family: var(--primary-font);
   font-weight: 500;
   margin-bottom: 5%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
+
 
 .container-all-carousel{
   position: relative;
@@ -115,4 +143,9 @@
   .carousel-text-no-color {
     font-size: 2vw;
   }
+}
+
+.btn-learn-more h4 {
+    padding: 0;
+    margin: auto;
 }

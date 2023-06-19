@@ -62,7 +62,6 @@
     background-color: white;
     width: 25%;
     height: 10%;
-    padding: 5px 5px;
     align-items: center;
     border-radius: 50px;
 }
