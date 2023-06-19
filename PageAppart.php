@@ -8,7 +8,7 @@
     </div>
     <?php include './src/includes/Footer.php'; ?>
 
-
-<script src="./public/JS/index.js"></script>    
+<script src="./public/JS/CallApi.js"></script>
+<script src="./public/JS/PageAppart.js"></script>    
 </body>
 </html>
