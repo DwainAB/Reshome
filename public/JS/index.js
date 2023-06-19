@@ -53,5 +53,5 @@ btnRetry.addEventListener('click', ()=>{
    slideFour.style.transition="all 0.7s"
    slideFive.style.width="0"
    slideFive.style.transition="all 0.9s"
-   console.log("tesdt");
 })
+

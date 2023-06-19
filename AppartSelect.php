@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr"> 
-<?php include './app/includes/HeadAppartSelect.php'; ?>
+<?php include './src/includes/HeadAppartSelect.php'; ?>
 <body>
-    <div class="test">
-        <?php include './app/includes/navbar.php'; ?>
-        <?php include './app/includes/InfoAppartSelect.php'; ?>
+    <div class="container-pageAppart">
+        <?php include './src/includes/navbar.php'; ?>
+        <?php include './src/includes/ContentAppartSelect.php';?>
     </div>
-    <?php include './app/includes/Footer.php'; ?>
+    <?php include './src/includes/Footer.php'; ?>
 
-
-<script src="./public/JS/index.js"></script>    
+<script src="./public/JS/CallApi.js"></script> 
+<script src="./public/JS/AppartSelect.js"></script> 
 </body>
 </html>
