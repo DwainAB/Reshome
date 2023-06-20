@@ -1,50 +1,67 @@
-<form action="http://localhost:8080/api/auth/register" method="POST">
+<div class="register-container-g" >
 
-    <div class="first-name-g">
-        <label for="">First name</label>
-        <input name="first_name" type="text">
+    <div class="register-left-part" >
+
+        <img class="register-left-logo" src="./public/CSS/Assets/logo.svg" alt="">
+        
+        <h3 class="register-left-title" >Hey, Hello</h3>
+
+        <p class="register-left-text" >Enter your first information for your first connection </p>
+
+        <form class="register-left-form" action="http://localhost:8080/api/auth/register" method="POST">
+    
+
+            <div class="first-name-g container-input-register-left">
+                <label class="register-left-label" for="">First name</label>
+                <input class="register-left-input" name="first_name" type="text">
+            </div>
+
+            <div class="last-name-g container-input-register-left">
+                <label for="">Last name</label>
+                <input class="register-left-input" name="last_name" type="text">
+            </div>
+
+            <div class="email-g container-input-register-left">
+                <label class="register-left-label" for="">Email</label>
+                <input class="register-left-input" name="email" type="email">
+            </div>
+
+            <div class="phone-g container-input-register-left">
+                <label class="register-left-label" for="">Phone number</label>
+                <input class="register-left-input" name="phone_number" type="number">
+            </div>
+
+            <div class="password-g container-input-register-left">
+                <label class="register-left-label" for="">Password</label>
+                <input class="register-left-input"  name="password" type="password">
+            </div>
+
+            <div class="register-left-div-btn" >
+                <button class="register-left-btn" type="submit" >Register</button>
+            </div>
+
+
+        </form>
+
     </div>
 
-    <div class="last-name-g">
-        <label for="">Last name</label>
-        <input name="last_name" type="text">
+    <div class="register-right-part" >
+
+            <div class="register-right-small-part" >
+
+                <img  class="register-right-logo"src="./public/CSS/Assets/logo.svg" alt="">
+
+                <h2 class="register-right-title" >Reshome</h2>
+
+                <h2 class="register-right-text" >Your luxury real estate <br> rental platform in Paris</h2>
+
+            </div>
+        
     </div>
 
-    <div class="email-g">
-        <label for="">Email</label>
-        <input name="email" type="email">
-    </div>
+</div>
 
-    <div class="phone-g">
-        <label for="">Phone number</label>
-        <input name="phone_number" type="number">
-    </div>
 
-    <div class="password-g">
-        <label for="">Password</label>
-        <input name="password" type="password">
-    </div>
 
-    <div class="address-g">
-        <label for="">Adress</label>
-        <input name="address" type="text">
-    </div>
 
-    <div class="post_code-g">
-        <label for="">Post code</label>
-        <input name="post_code" type="text">
-    </div>
 
-    <div class="city-g">
-        <label for="">City</label>
-        <input name="city" type="text">
-    </div>
-
-    <div class="country-g">
-        <label for="">Country</label>
-        <input name="country" type="text">
-    </div>
-
-    <button type="submit" >Register</button>
-
-</form>

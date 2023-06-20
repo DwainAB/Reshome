@@ -1,4 +1,126 @@
-.first-name-g{
-    color: red;
-    background-color: red;
-}
+.register-container-g {
+    width: 100vw;
+    height: 110vh; 
+    display: flex;
+  }
+  
+  .register-left-part{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    padding: 0 auto;
+    background-image: url('../CSS/Assets/backgroundAnnouncement.png');
+  }
+
+ .register-right-part {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+  }
+
+  .register-left-title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+  }
+
+  .register-left-logo,.register-right-logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+  }
+
+  .register-left-text{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    margin-top: 20px;
+  }
+
+  .register-left-form{
+    margin-top: 48px;
+  }
+
+  .container-input-register-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
+  .container-input-register-left{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--secondary-color);
+  }
+
+  .register-left-input{
+    width: 300px;
+    height: 40px;
+    border: 2px solid var(--primary-color);
+  }
+
+  .register-left-div-btn{
+    width: 220px;
+    height: 48px;
+    margin: 0 auto;
+  }
+
+  .register-left-btn{
+    width: 220px;
+    height: 48px;
+    color: white;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    margin-top: 52px;
+  }
+
+  /* Part two */
+
+  .register-right-part{
+    background-image: url('../CSS/Assets/background-register-right.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .register-right-small-part{
+    width: 480px;
+    height: 580px;
+    background: linear-gradient(145.5deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.05) 100%);
+    backdrop-filter: blur(109px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .register-right-title{
+    color: white;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 5.5rem;
+    margin-bottom: 32px;
+    opacity: 1 !important;
+  }
+
+  .register-right-text{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--secondary-font);
+    opacity: 1 !important;
+  }
+
+
+  
