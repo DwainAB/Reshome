@@ -3,7 +3,7 @@
 <?php include './src/includes/headIndex.php'; ?>
 <body>
         
-        <?php include './src/includes/navbar.php'; ?>
+        <?php include './src/includes/navbarHomepage.php'; ?>
         <?php include './src/includes/Header.php'; ?>
         <?php include './src/includes/Carousel.php'; ?>      
         <?php include './src/includes/Discovery.php'; ?>      

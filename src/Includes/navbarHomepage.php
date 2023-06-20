@@ -30,7 +30,7 @@
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
-    color: black;
+    color: white;
     padding: 0;
 }
 
@@ -47,7 +47,7 @@
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
-    color: black;
+    color: white;
 }
 
 .li-border{
@@ -105,7 +105,6 @@
 @media screen and (max-width:800px) {
     .info-left-resp, .info-right-resp {
         display: block;
-        color: black;
     }
     .info {
         display: none;
