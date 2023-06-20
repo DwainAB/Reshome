@@ -131,6 +131,16 @@
     padding: 0;
     margin: 0;
 }
+.info-left {
+    padding-right: 60px;
 }
+}
+
+.container-navbar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+
 
 </style>
