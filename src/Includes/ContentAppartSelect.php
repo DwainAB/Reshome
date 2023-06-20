@@ -25,7 +25,7 @@
         </div>
 
         <div class="carousel-appart-select">
-            <div class="carousel-appart-select-arrowleft"><img src="./public/CSS/Assets/arrowleft.png" alt=""></div>
+            <div class="carousel-appart-select-arrowleft"><img src="arrowleft.png" alt=""></div>
             <div class="carousel-appart-select-arrowright"><img src="./public/CSS/Assets/arrowright.png" alt=""></div>
             <img class="img-carousel-appart-select" src="./public/CSS/Assets/imgAppartsup.png" alt="">
         </div>
