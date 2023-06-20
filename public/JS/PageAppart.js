@@ -13,7 +13,7 @@ fetchAnnounces()
       appart.className = 'appart';
 
       let link = document.createElement('a');
-      link.href = `http://localhost/Reshome/AppartSelect.php?id=${appartArray[i].announce_id}`;
+      link.href = `http://localhost:81/Reshome/AppartSelect.php?id=${appartArray[i].announce_id}`;
 
       let img = document.createElement('img');
       img.src = './public/CSS/Assets/imgAppartsup.png';
