@@ -135,6 +135,9 @@
 .info-left {
     padding-right: 60px;
 }
+.container-navbar {
+    height: 10%;
+}
 }
 
 .container-navbar {
