@@ -199,11 +199,14 @@
     display: flex;
     flex-direction: column;
     width: 360px;
+    margin-top: 26px;
+    padding-bottom: 20px;
 }
 
 .element-list-overview{
     width: 320px;
-    margin:20px 20px;
+    margin-left:20px;
+    margin-bottom: 16px;
     background-color: #59413F;
     display: flex;
     height: 46px;
