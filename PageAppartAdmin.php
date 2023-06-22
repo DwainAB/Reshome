@@ -8,6 +8,6 @@
     </div>
     <?php include './src/includes/Footer.php'; ?>
 
-<script src="./public/JS/CallApi.js"></script>  
+<script src="./public/JS/CallApi.js"></script>
 </body>
 </html>
