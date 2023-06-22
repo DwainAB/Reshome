@@ -53,24 +53,24 @@
                     <div class="form-left">
 
                         <div class="field-form-add-appart">
-                            <label class="label-field-add-appart" for="name_apartment">Name of the appartment</label><br />
-                            <input class="input-field-add-appart" type="text" id="name_apartment">
+                            <p class="label-field-add-appart" for="name_apartment">Name of the appartment</p><br />
+                            <p class="input-field-add-appart" type="text" id="name_apartment"></p>
                         </div>
                         <div class="field-form-add-appart">
-                            <label class="label-field-add-appart" for="neighborhood_apartment">Neighborhood</label><br />
-                            <input class="input-field-add-appart" type="text" id="neighborhood_apartment">
+                            <p class="label-field-add-appart" for="neighborhood_apartment">Neighborhood</p><br />
+                            <p class="input-field-add-appart" type="text" id="neighborhood_apartment"></p>
                         </div>
                         <div class="field-form-add-appart">
-                            <label class="label-field-add-appart" for="arrondissement_apartment">Arrondissement</label><br />
-                            <input class="input-field-add-appart" type="text" id="arrondissement_apartment">
+                            <p class="label-field-add-appart" for="arrondissement_apartment">Arrondissement</p><br />
+                            <p class="input-field-add-appart" type="text" id="arrondissement_apartment"></p>
                         </div>
                         <div class="field-form-add-appart">
-                            <label class="label-field-add-appart" for="nb_bedrooms_apartment">Number of bedrooms</label><br />
-                            <input class="input-field-add-appart" type="text" id="nb_bedrooms_apartment">
+                            <p class="label-field-add-appart" for="nb_bedrooms_apartment">Number of bedrooms</p><br />
+                            <p class="input-field-add-appart" type="text" id="nb_bedrooms_apartment"></p>
                         </div>
                         <div class="field-form-add-appart">
-                            <label class="label-field-add-appart" for="capacity_apartment">Capacity</label><br />
-                            <input class="input-field-add-appart" type="text" id="capacity_apartment">
+                            <p class="label-field-add-appart" for="capacity_apartment">Capacity</p><br />
+                            <p class="input-field-add-appart" type="text" id="capacity_apartment"></p>
                         </div>
 
                     </div>
@@ -80,16 +80,16 @@
 
                             <div class="list-field-form-add-appart">
                                 <div class="field-form-add-appart">
-                                    <label class="label-field-add-appart" for="type_apartment">Type of apartment</label><br />
-                                    <input class="input-field-add-appart" type="text" id="type_apartment">
+                                    <p class="label-field-add-appart" for="type_apartment">Type of apartment</p><br />
+                                    <p class="input-field-add-appart" type="text" id="type_apartment"></p>
                                 </div>
                                 <div class="field-form-add-appart">
-                                    <label class="label-field-add-appart" for="area_apartment">Area of apartment</label><br />
-                                    <input class="input-field-add-appart" type="text" id="area_apartment">
+                                    <p class="label-field-add-appart" for="area_apartment">Area of apartment</p><br />
+                                    <p class="input-field-add-appart" type="text" id="area_apartment"></p>
                                 </div>
                                 <div class="field-form-add-appart">
-                                    <label class="label-field-add-appart" for="price_apartment">Price of apartment</label><br />
-                                    <input class="input-field-add-appart" type="text" id="price_apartment">
+                                    <p class="label-field-add-appart" for="price_apartment">Price of apartment</p><br />
+                                    <p class="input-field-add-appart" type="text" id="price_apartment"></p>
                                 </div>
                             </div>
 

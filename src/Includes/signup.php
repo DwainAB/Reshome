@@ -25,13 +25,13 @@
         <form class="register-left-form" method="POST">
 
             <div class="email-g container-input-register-left">
-                <label class="register-left-label" for="">Email</label>
-                <input class="register-left-input" name="email" type="email">
+                <label class="register-left-label" for="email">Email</label>
+                <input class="register-left-input" name="email" type="email" id="email">
             </div>
 
             <div class="password-g container-input-register-left">
-                <label class="register-left-label" for="">Password</label>
-                <input class="register-left-input" name="password" type="password">
+                <label class="register-left-label" for="password">Password</label>
+                <input class="register-left-input" name="password" type="password" id="password">
             </div>
 
             <div class="register-left-div-btn">

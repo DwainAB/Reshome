@@ -24,28 +24,15 @@ form.addEventListener('submit', (e) => {
   })
     .then(response => response.json())
     .then(data => {
-      console.log('test');
       // Récupération du token depuis la réponse JSON
       const token = data.token;
-      console.log(token);
+
+    // Stocker le token dans le Local Storage
+      localStorage.setItem('accessToken', token);
 
       // Utilisez le token comme vous le souhaitez (par exemple, stockez-le dans un cookie)
       // ...
-      
-        function setCookie(name, value, days) {
-            const expirationDate = new Date();
-            expirationDate.setTime(expirationDate.getTime() + (days * 24 * 60 * 60 * 1000));
-            const expires = "expires=" + expirationDate.toUTCString();
-            document.cookie = name + "=" + value + "; " + expires + "; path=/";
-        }
-        
-        // Exemple d'utilisation pour stocker un token nommé "accessToken" pendant 7 jours
-        setCookie("accessToken", token, 7);
-
-      // Effectuez des actions supplémentaires en fonction de la réponse de l'API
-      // ...
-
-      window.location.href = 'http://localhost/Reshome/index.php';
+   
 
     })
     .catch(error => {

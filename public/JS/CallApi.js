@@ -64,3 +64,33 @@ function fetchPicturesById(announceId) {
 
 
 
+  function getCookie(name) 
+  {
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+      const cookie = cookies[i].trim();
+      if (cookie.startsWith(name + '=')) {
+        return cookie.substring(name.length + 1);
+      }
+    }
+    return null;
+  }
+  
+  // Récupération du token depuis le cookie "accessToken"
+  const token = getCookie("accessToken");
+  
+  if (token) {
+    // Utilisez le token comme vous le souhaitez
+    console.log(token);
+  } else {
+    // Le cookie n'est pas trouvé ou le token est manquant
+    console.log("Token non trouvé");
+  }
+  
+
+  // Récupérer tous les éléments du Local Storage
+for (let i = 0; i < localStorage.length; i++) {
+  const key = localStorage.key(i);
+  const value = localStorage.getItem(key);
+  console.log(`Clé: ${key}, Valeur: ${value}`);
+}
