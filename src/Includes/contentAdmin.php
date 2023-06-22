@@ -8,7 +8,7 @@
 
         <div class="info-menu-top-admin-page">
             <div class="container-img-info-menu">
-                <img src="./public/CSS/Assets/arrowleftadmin.png" alt="">
+                <img src="./public/CSS/Assets/arrowleft.svg" alt="">
             </div>
             <p class="text-info-menu-top">Back</p>
         </div>
@@ -64,7 +64,7 @@
 
                     <div class="img-statics-overview">
                         <div class="shadow-img-statics-overview"></div>
-                        <img src="./public/CSS/Assets/imgstaticsadminpage.png" alt="">
+                        <img src="./public/CSS/Assets/imgae-admin.png" alt="">
                     </div>
 
                 </div>
@@ -128,7 +128,7 @@
 
                 <div class="section-list-overview container-img-france">
                     <div>
-                        <img src="./public/CSS/Assets/franceimg.png" alt="">
+                        <img src="./public/CSS/Assets/france.svg" alt="">
                     </div>
                 </div>
             </div>
