@@ -38,7 +38,15 @@
         </div>
 
         <div class="content-form">
-            <h1 class="title-form">Add an apartment</h1>
+
+                <div class="element-list-overview-add">
+                    <div class="index-element-list-overview-add">
+                        <p>1</p>
+                    </div>
+                    <div class="info-element-list-overview-add">
+                        <h3 class="title-element-list-overview-add">The housewood</h3>
+                    </div>
+                </div>
 
             <form action="" method="">
                 <div class="all-form-add-appart">
@@ -88,7 +96,7 @@
                             <div class="img-form-add-appart">
                                 <div class="field-img-form-add-appart">
                                     <label class="label-field-add-appart" for="price_apartment">Images of apartment</label><br />
-                                    <input class="input-field-add-appart-i custom-file-input" type="file" id="price_apartment" value="Import image" multiple>
+                                    <img src="./public/CSS/Assets/image-admin-appart.png" alt="">
                                 </div>
                                 <div class="view-img-add-appart"></div>
                             </div>
@@ -105,9 +113,6 @@
                     </div>
                 </div>
 
-                <div class="container-btn-add-appart">
-                    <button class="btn-add-appart" type="submit">add apartment</button>
-                </div>
 
             </form>
 

@@ -3,11 +3,55 @@
     margin-right: 60px;
 }
 
-.title-form{
-    font-size: 2rem;
-    font-family: var(--primary-font);
-    font-weight: 500;
+.element-list-overview-add{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 16px;
 }
+
+.info-element-list-overview-add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.index-element-list-overview-add{
+    width: 60px;
+    height: 58px;
+    background: #59413F;
+    border: 1px solid #1C232C;
+}
+
+.index-element-list-overview-add p{
+    font-family: 'MADE SAONARA';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-element-list-overview-add{
+    width: 100%;
+    height: 60px;
+    background: #1C232C;
+}
+
+.title-element-list-overview-add{
+    font-family: 'MADE SAONARA';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px; 
+    text-align: center;
+    color: #DBA473;
+    margin-left: 20px;   
+}
+
+
 
 .all-form-add-appart,.form-right-top{
     display: flex;
@@ -84,5 +128,3 @@
     color: #E3E3E3;
     cursor: pointer;
   }
-
-  
