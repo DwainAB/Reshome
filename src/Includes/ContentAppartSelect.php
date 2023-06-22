@@ -11,16 +11,9 @@
                     <img class="img-reserv-appart-select" src="./public/CSS/Assets/calendar.png" alt="">
                 </div>
             </div>
-            <ul class="list-feature-appart-select">
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-                <li class="feature"><img src="./public/CSS/Assets/Vector.png" alt="">Kitchen</li>
-            </ul>
+            <div class="list-feature-appart-select">
+
+            </div>
             <p class="description-appart-select"></p>
         </div>
 
@@ -28,6 +21,7 @@
             <div class="carousel-appart-select-arrowleft"><img src="./public/CSS/Assets/arrowleft.png" alt=""></div>
             <div class="carousel-appart-select-arrowright"><img src="./public/CSS/Assets/arrowright.png" alt=""></div>
             <div class="container-img-carousel-appart">
+                <img class="first-img-appart-select img-carousel-appart-select" src="" alt="">
             </div>
         </div>
     </div>

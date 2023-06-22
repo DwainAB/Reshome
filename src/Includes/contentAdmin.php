@@ -10,7 +10,7 @@
             <div class="container-img-info-menu">
                 <img src="./public/CSS/Assets/arrowleft.svg" alt="">
             </div>
-            <p class="text-info-menu-top">Back</p>
+            <a href="http://localhost/Reshome/index.php" class="text-info-menu-top">Back</a>
         </div>
 
         <div class="title-menu-top">DASHBOARD ADMIN</div>
@@ -23,11 +23,11 @@
 
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
-                <p class="text-link-content-page">OVERVIEW</p>
+                <a href="http://localhost/Reshome/PageAdmin.php" class="text-link-content-page">OVERVIEW</a>
             </div>
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
-                <p class="text-link-content-page">Announce</p>
+                <a href="http://localhost/Reshome/PageAppartAdmin.php" class="text-link-content-page">Announce</a>
             </div>
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
@@ -79,49 +79,12 @@
                 <div class="section-list-overview">
                     <h2 class="title-section-list-overview">List of apparts</h2>
 
-                    <div class="list-overview"></div>
+                    <div class="list-overview appart"></div>
                 </div>
 
                 <div class="section-list-overview">
-                    <h2 class="title-section-list-overview">List of apparts</h2>
-                    <div class="list-overview">
-
-                        <div class="element-list-overview">
-                            <div class="index-element-list-overview">
-                                <p>1</p>
-                            </div>
-                            <div class="info-element-list-overview">
-                                <h3 class="title-element-list-overview">The housewood</h3>
-                                <p class="price-element-list-overview">1500 €</p>
-                            </div>
-                        </div>
-                        <div class="element-list-overview">
-                            <div class="index-element-list-overview">
-                                <p>2</p>
-                            </div>
-                            <div class="info-element-list-overview">
-                                <h3 class="title-element-list-overview">The housewood</h3>
-                                <p class="price-element-list-overview">1500 €</p>
-                            </div>
-                        </div>
-                        <div class="element-list-overview">
-                            <div class="index-element-list-overview">
-                                <p>3</p>
-                            </div>
-                            <div class="info-element-list-overview">
-                                <h3 class="title-element-list-overview">The housewood</h3>
-                                <p class="price-element-list-overview">1500 € </p>
-                            </div>
-                        </div>
-                        <div class="element-list-overview">
-                            <div class="index-element-list-overview">
-                                <p>4</p>
-                            </div>
-                            <div class="info-element-list-overview">
-                                <h3 class="title-element-list-overview">The housewood</h3>
-                                <p class="price-element-list-overview">1500 €</p>
-                            </div>
-                        </div>
+                    <h2 class="title-section-list-overview">List of users</h2>
+                    <div class="list-overview users">
 
                     </div>
                 </div>

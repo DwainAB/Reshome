@@ -22,7 +22,7 @@
 
         <p class="register-left-text">Enter your first information for your first connection </p>
 
-        <form class="register-left-form" action="http://localhost:8080/api/auth/login" method="POST">
+        <form class="register-left-form" method="POST">
 
             <div class="email-g container-input-register-left">
                 <label class="register-left-label" for="">Email</label>
