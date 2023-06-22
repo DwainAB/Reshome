@@ -30,6 +30,13 @@ form.addEventListener('submit', (e) => {
     // Stocker le token dans le Local Storage
       localStorage.setItem('accessToken', token);
 
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const value = localStorage.getItem(key);
+        console.log(`Clé: ${key}, Valeur: ${value}`);
+      }
+      
+
       // Utilisez le token comme vous le souhaitez (par exemple, stockez-le dans un cookie)
       // ...
    

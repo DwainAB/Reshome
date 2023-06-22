@@ -29,6 +29,27 @@ function getListUsers() {
       });
   }
 
+  function getInfoUser() {
+    const token = localStorage.getItem("accessToken"); // Récupération du token depuis le localStorage
+  
+    return fetch('http://localhost:8080/api/get/self', {
+      headers: {
+        'Authorization': `Bearer ${token}` // Ajout de l'en-tête d'autorisation avec le token
+      }
+    })
+      .then(function(response) {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Erreur lors de la requête');
+        }
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  }
+  
+
 
 function fetchAnnounceById(announceId) {
     let apiUrl = `${api_url}/api/get/announce?id=${announceId}`;
