@@ -9,6 +9,13 @@
     background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
 }
 
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
 .info-left{
     display: flex;
     align-items: center;

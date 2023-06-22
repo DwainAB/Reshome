@@ -13,7 +13,8 @@ fetchAnnounces()
       appart.className = 'appart';
 
       let link = document.createElement('a');
-      link.href = `http://localhost:81/Reshome/AppartSelect.php?id=${appartArray[i].announce_id}`;
+      //Pour Aghiles mettre le localhost sur le port 81
+      link.href = `http://localhost:80/Reshome/AppartSelect.php?id=${appartArray[i].announce_id}`;
 
       let img = document.createElement('img');
       img.src = './public/CSS/Assets/imgAppartsup.png';

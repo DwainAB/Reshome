@@ -7,6 +7,14 @@
     margin-top: 0;
 }
 
+a{
+    color: #898989;
+}
+
+a:visited{
+    color: #898989!important;
+}
+
 .info-left{
     display: flex;
     align-items: center;

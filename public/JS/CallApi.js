@@ -32,3 +32,19 @@ function fetchAnnounceById(announceId) {
       });
   }
   
+function fetchPicturesById(announceId) {
+    const apiUrl = `${api_url}/api/get/pictures?id=${announceId}`;
+  
+    return fetch(apiUrl)
+      .then(function(response) {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Erreur lors de la requête');
+        }
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  }
+  
