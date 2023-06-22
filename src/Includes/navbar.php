@@ -1,7 +1,7 @@
 <div class="container-navbar">
         <ul class="info-left">
             <li class="info">Home</li>
-            <li class="info">Apartment</li>
+            <li class="info"><a href="http://localhost:81/Reshome/PageAppart.php">Apartment</a></li>
             <li class="info">Contact</li>
         </ul>
 
