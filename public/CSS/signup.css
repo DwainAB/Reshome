@@ -1,113 +1,124 @@
+
 .register-container-g {
-    width: 100vw;
-    height: 110vh; 
+  width: 100%;
+  display: flex;
+}
+
+.register-left-part{
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 auto;
+  background-image: url('../CSS/Assets/backgroundAnnouncement.png');
+  width: 50%;
+
+}
+
+.register-right-part {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  width: 50%;
+}
+
+.register-left-title{
+  font-size: 3.5vw;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+.register-left-logo,.register-right-logo{
+  width: 80px;
+  height: 80px;
+  margin-top: 10%;
+}
+
+.register-left-text{
+  font-family: var(--primary-font);
+  font-size: 1.25vw;
+  color: var(--secondary-color);
+  margin-top: 3%;
+}
+
+.container-input-register-left{
+  font-family: var(--primary-font);
+  font-size: 1.25vw;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+
+.register-left-input{
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--primary-color);
+}
+
+.register-left-div-btn{
+    width: 100%;
     display: flex;
-    padding-bottom: 50px;
-  }
-  
-  .register-left-part{
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 0 auto;
-    background-image: url('../CSS/Assets/backgroundAnnouncement.png');
-    height: 865px;
-  }
+  height: 100%;
+}
 
- .register-right-part {
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 865px;
-  }
+.register-left-btn{
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 2.5vw;
+  font-family: var(--primary-font);
+  margin-top: 10%;
+  border-radius: 50px;
+}
 
-  .register-left-title{
-    font-size: 2.5rem;
-    font-weight: 400;
-    font-family: var(--secondary-font);
-    color: var(--secondary-color);
-  }
+/* Part two */
 
-  .register-left-logo,.register-right-logo{
-    width: 80px;
-    height: 80px;
-  }
+.register-right-part{
+  background-image: url('../CSS/Assets/background-signup-left.png');
+  background-size: cover;
+  background-position: center;
+}
 
-  .register-left-text{
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--secondary-color);
-  }
+.register-right-small-part{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .container-input-register-left{
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--secondary-color);
-    display: flex;
-    flex-direction: column;
-    margin-top: 16px;
-  }
+.register-right-title{
+  color: white;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 5.5vw;
+  margin-bottom: 32px;
+  opacity: 1 !important;
+}
 
-  .register-left-input{
-    width: 300px;
-    height: 40px;
-    border: 2px solid var(--primary-color);
-  }
+.register-right-text{
+  color: white;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 3vw;
+  opacity: 1 !important;
+}
 
-  .register-left-div-btn{
-    width: 220px;
-    height: 48px;
-    margin: 0 auto;
+@media screen and (max-width:900px) {
+  .register-right-part {
+      display: none;
   }
-
-  .register-left-btn{
-    width: 220px;
-    height: 48px;
-    color: white;
-    border: 2px solid var(--primary-color);
-    background-color: var(--secondary-color);
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: var(--primary-font);
-    margin-top: 52px;
+  .register-left-logo {
+      margin-top: 5%;
   }
-
-  /* Part two */
-
-  .register-right-part{
-    background-image: url('../CSS/Assets/background-signup-left.png');
-    background-size: cover;
-    background-position: center;
-  }
-
-  .register-right-small-part{
-    width: 480px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .register-right-title{
-    color: white;
-    font-family: var(--secondary-font);
-    font-weight: 400;
-    font-size: 5.5rem;
-    margin-bottom: 32px;
-    opacity: 1 !important;
-  }
-
-  .register-right-text{
-    color: white;
-    font-family: var(--secondary-font);
-    font-weight: 400;
-    font-size: 2rem;
-    opacity: 1 !important;
-  }
+}

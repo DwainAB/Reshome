@@ -9,11 +9,24 @@
 
 .header-title{
     color: white;
-    position: absolute;
-    left: 86px;
-    width: 900px;
-    top: 415px;
+    width: auto;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+    .header-title {
+    font-family: 'saonara';
+    font-size: 9vw;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .container-header-info{
+        display: none;
+    }
 }
 
 .header-title-color{
@@ -22,23 +35,31 @@
     font-weight: 400;
 }
 
-.container-header-info{
-    display: flex;
-    padding-left: 15px;
-    position: absolute;
-    top: 755px;
-    right: 86px;
-    background-color: white;
-    width: 295px;
-    height: 84px;
-    align-items: center;
-    border-radius: 51px;
-}
-
-.container-header-info img{
-width: 64px;
-height: 64px;
-}
+@media screen and (min-width:1120px) {
+    .container-header-info{
+        display: flex;
+        padding-left: 15px;
+        position: absolute;
+        top: 80%;
+        right: 5%;
+        background-color: white;
+        width: 25%;
+        height: 10%;
+        align-items: center;
+        border-radius: 50px;
+    }
+    
+    .container-header-info img{
+    width: 20%;
+    height: 80%;
+    }
+    .header-info p{
+        font-size: 1,5vw;
+        font-family: 'poppins';
+        margin: 0;
+        padding: 0;
+     }
+     }
 
 .header-info-text-color{
     color: var(--primary-color);
@@ -49,7 +70,6 @@ height: 64px;
 }
 
 .header-info p{
-   line-height: 3px;
-   font-size: 1rem;
+   font-size: 1.5vw;
    font-family: 'poppins';
 }
