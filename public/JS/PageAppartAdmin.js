@@ -1,3 +1,15 @@
+getInfoUser()
+  .then(function(data) {
+  console.log(data);
+    if (data.is_admin !== 1) {
+        window.location.href = 'http://localhost/Reshome/index.php';
+    }
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
+
 const appartArray = [];
 const formLeft = document.querySelector('.form-left-')
 
@@ -12,20 +24,12 @@ fetchAnnounces()
     divField.classList = 'field-form-add-appart'
 
     let nameField = document.createElement('p')
+  
+
     
    }
 
 
-  })
-  .catch(function(error) {
-    console.log(error);
-  });
-
-  console.log("test");
-
-getInfoUser()
-  .then(function(data) {
-  console.log(data);
   })
   .catch(function(error) {
     console.log(error);

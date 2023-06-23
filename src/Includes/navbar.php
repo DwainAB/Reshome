@@ -10,6 +10,7 @@
     <ul class="info-right">
         <li class="info"></li>
         <li class="info li-border">Start a search <span class="img-li-border"><img src="./public/CSS/Assets/arrowdown.png" alt=""></span></li>
-        <li class="info">Login</li>
+        <li class="info info-login"><a href="http://localhost/Reshome/PageSignup.php">Login</a></li>
+        <li class="info info-logout">Logout</li>
     </ul>
 </div>

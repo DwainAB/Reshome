@@ -1,3 +1,14 @@
+getInfoUser()
+  .then(function(data) {
+  console.log(data);
+    if (data.is_admin !== 1) {
+        window.location.href = 'http://localhost/Reshome/index.php';
+    }
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
 const form = document.querySelector('form');
 
 form.addEventListener('submit', (e) => {
@@ -7,6 +18,7 @@ form.addEventListener('submit', (e) => {
 
   // Récupération du token depuis le Local Storage
   const token = localStorage.getItem("accessToken");
+  console.log(token);
 
   // Vérification si le token est présent
   if (token) {
@@ -17,7 +29,7 @@ form.addEventListener('submit', (e) => {
       },
       body: formData
     })
-      .then(response => response.json())
+      .then(response => response.text())
       .then(data => {
         if (data.success) {
           console.log("Le token a été envoyé avec succès !");
