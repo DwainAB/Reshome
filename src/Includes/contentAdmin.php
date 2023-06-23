@@ -71,6 +71,14 @@
 
                 <div class="location-add-appart">
 
+                    <div class="location-add-appart-div" >
+
+                        <h2 class="location-add-appart-h2" >To add an ad click here</h2>
+                        <p class="location-add-appart-p">be careful to add an ad you need all the information <br/> together if one of them is missing you will not be able <br/> to add any, please put the right information before <br/> posting an ad</p>
+                        <button class="location-add-appart-btn" > <a href="http://localhost:80/Reshome/PageAddAppart.php" class="location-add-appart-a" >Add apartement </a> </button>
+
+                    </div>
+
                 </div>
             </div>
 
