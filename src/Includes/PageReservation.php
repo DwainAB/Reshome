@@ -23,7 +23,7 @@
 
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
-                <p class="text-link-content-page">OVERVIEW</p>
+                <p class="text-link-content-page">Overview</p>
             </div>
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
