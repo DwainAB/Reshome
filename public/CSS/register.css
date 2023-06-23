@@ -15,6 +15,13 @@
     background-image: url('../CSS/Assets/backgroundAnnouncement.png');
   }
 
+  .btn-signup{
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    color: black;
+    margin-top: 80px;
+  }
+
  .register-right-part {
     flex: 1; 
     display: flex;

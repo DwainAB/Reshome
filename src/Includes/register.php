@@ -37,13 +37,17 @@
             </div>
 
             <div class="register-left-div-btn">
-                <button class="register-left-btn" type="submit">Register</button>
+                <button class="register-left-btn" type="submit">Signup</button>
             </div>
 
 
         </form>
 
+        <p class="btn-signup"><a href="http://localhost/Reshome/PageSignup.php">Login</a></p>
+
     </div>
+
+
 
     <div class="register-right-part">
 

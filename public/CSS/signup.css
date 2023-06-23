@@ -1,8 +1,6 @@
 .register-container-g {
     width: 100vw;
-    height: 110vh; 
     display: flex;
-    padding-bottom: 50px;
   }
   
   .register-left-part{
@@ -64,7 +62,16 @@
     width: 220px;
     height: 48px;
     margin: 0 auto;
+    margin-top: 20px;
   }
+
+  .btn-signup{
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    color: black;
+    margin-top: 80px;
+  }
+
 
   .register-left-btn{
     width: 220px;

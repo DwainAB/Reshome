@@ -97,12 +97,27 @@ for (let i = 0; i < localStorage.length; i++) {
 
 let infoLogin = document.querySelector('.info-login')
 let infoLogout = document.querySelector('.info-logout')
+let infoAdmin = document.querySelector('.info-admin')
 const token = localStorage.getItem("accessToken");
 
 
 if(token){
   infoLogin.style.display="none";
   infoLogout.style.display="block";
+
+  getInfoUser()
+  .then(function(data) {
+  console.log(data);
+    if (data.is_admin === 1) {
+        infoAdmin.innerHTML="Page Admin"
+    }else{
+      infoAdmin.innerHTML=""
+    }
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
 }else{
   infoLogin.style.display="block"
   infoLogout.style.display="none";
