@@ -1,4 +1,5 @@
 const form = document.querySelector('form');
+console.log('test');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -18,21 +19,15 @@ form.addEventListener('submit', (e) => {
 
       // Utilisez le token comme vous le souhaitez (par exemple, stockez-le dans un cookie)
       // ...
-      
-        function setCookie(name, value, days) {
-            const expirationDate = new Date();
-            expirationDate.setTime(expirationDate.getTime() + (days * 24 * 60 * 60 * 1000));
-            const expires = "expires=" + expirationDate.toUTCString();
-            document.cookie = name + "=" + value + "; " + expires + "; path=/";
-        }
-        
-        // Exemple d'utilisation pour stocker un token nommé "accessToken" pendant 7 jours
-        setCookie("accessToken", token, 7);
+      localStorage.setItem('accessToken', token);
 
-      // Effectuez des actions supplémentaires en fonction de la réponse de l'API
-      // ...
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const value = localStorage.getItem(key);
+        console.log(`Clé: ${key}, Valeur: ${value}`);
+      }
 
-      window.location.href = 'http://localhost/Reshome/index.php';
+      window.location.href = "http://localhost/Reshome/index.php";
 
     })
     .catch(error => {

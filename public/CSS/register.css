@@ -16,15 +16,21 @@
   width: 50%;
 }
 
-.register-right-part {
-  flex: 1; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%; 
-  width: 50%;
-}
+  .btn-signup{
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    color: black;
+    margin-top: 80px;
+  }
+
+ .register-right-part {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+  }
 
 .register-left-title{
   font-size: 3.5vw;

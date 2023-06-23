@@ -10,11 +10,10 @@
     <img class="img-nav" src="./public/CSS/Assets/logo.svg" alt="">
 
     <ul class="info-right">
-        <li class="info"></li>
-        <li class="info li-border"><a href="">Search</a></li>
-        <li class="info"><a href="">Login</a></li>
-        <li class=info-right-resp> <a href="">Login</a></li>
-        <li class=info-right-resp> <a href="">Register</a></li>
+        <li class="info"><a class="info-admin" href="http://localhost/Reshome/PageAdmin.php"></a></li>
+        <li class="info li-border">Start a search <span class="img-li-border"><img src="./public/CSS/Assets/arrowdown.png" alt=""></span></li>
+        <li class="info info-login"><a href="http://localhost/Reshome/PageSignup.php">Login</a></li>
+        <li class="info info-logout">Logout</li>
     </ul>
 </div>
 

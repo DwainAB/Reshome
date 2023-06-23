@@ -40,6 +40,8 @@
 
         </form>
 
+        <p class="btn-signup"><a href="http://localhost/Reshome/PageRegister.php">Signup</a></p>
+
     </div>
 
 
