@@ -48,11 +48,45 @@ function getListUsers() {
         console.log(error);
       });
   }
+
+  function reservation(id, begin_date, end_date, reservation_request ) {
+    const token = localStorage.getItem("accessToken"); // Récupération du token depuis le localStorage
+  
+    return fetch(`http://localhost:8080/api/post/reservation?announce_id=${id}&begin_date=${begin_date}&end_date=${end_date}&reservation_request=${reservation_request}`, {
+      method: 'GET', // Spécifiez la méthode POST
+      headers: {
+        'Authorization': `Bearer ${token}`, // Ajout de l'en-tête d'autorisation avec le token
+      },
+    })
+    .then(function(response) {
+      return response.json();
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+  }
+  
   
 
 
 function fetchAnnounceById(announceId) {
     let apiUrl = `${api_url}/api/get/announce?id=${announceId}`;
+  
+    return fetch(apiUrl)
+      .then(function(response) {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Erreur lors de la requête');
+        }
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  }
+
+function deleteUser(announceId) {
+    let apiUrl = `${api_url}/api/delete/user?id=${announceId}}`;
   
     return fetch(apiUrl)
       .then(function(response) {

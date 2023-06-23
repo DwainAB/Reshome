@@ -27,7 +27,7 @@
     </div>
 
     <div class="container-btn-content-appart-select">
-        <button class="btn-content-appart-select">Réserver</button>
+        <button class="btn-content-appart-select"><a href="http://localhost/Reshome/PageReservation.php">Réserver</a></button>
     </div>
 
 </div>

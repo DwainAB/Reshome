@@ -31,7 +31,7 @@
             </div>
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
-                <p class="text-link-content-page">Users</p>
+                <a href="http://localhost/Reshome/PageListUser.php" class="text-link-content-page">Users</a>
             </div>
 
             </ul>

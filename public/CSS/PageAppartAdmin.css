@@ -128,3 +128,44 @@
     color: #E3E3E3;
     cursor: pointer;
   }
+
+  .users{
+    display: flex;
+    justify-content: space-between;
+    background-color: #59413F;
+    width: 300px;
+    height: 48px;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .index-user{
+    color: #FFFFFF;
+    padding: 2px;
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+    background-color: #1C232C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name-user{
+    color: white;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+  }
+
+  .remove-btn{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    margin-right: 10px;
+  }
+
+  .title-list-user{
+    color: #1C232C;
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+  }

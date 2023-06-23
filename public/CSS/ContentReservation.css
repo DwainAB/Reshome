@@ -1,0 +1,19 @@
+.form-reservation{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.input-reservation{
+    width: 300px;
+    height: 48px;
+}
+
+.btn-reservation{
+    width: 150px;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    font-size: 1.25rem;
+    font-family: var(--primary-font);
+}
