@@ -111,7 +111,7 @@ if(token){
     if (data.is_admin === 1) {
         infoAdmin.innerHTML="Page Admin"
     }else{
-      infoAdmin.innerHTML="test"
+      infoAdmin.innerHTML=""
     }
   })
   .catch(function(error) {
