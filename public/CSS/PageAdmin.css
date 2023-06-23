@@ -258,3 +258,41 @@
     align-items: center;
     justify-content: center;
 }
+
+.location-add-appart-h2{
+    color: #000;
+    font-size: 32px;
+    font-family: MADE SAONARA;
+}
+
+.location-add-appart-p{
+    color: var(--blanc, #E3E3E3);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.location-add-appart-btn{
+    border: 2px solid var(--dor, #DBA473);
+    background: var(--bleu-nuit, #1C232C);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.location-add-appart-a{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+.location-add-appart-div{
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+
+
