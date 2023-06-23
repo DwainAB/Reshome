@@ -14,7 +14,7 @@ fetchAnnounces()
 
       let link = document.createElement('a');
       //Pour Aghiles mettre le localhost sur le port 81
-      link.href = `http://localhost:80/Reshome/AppartSelect.php?id=${appartArray[i].announce_id}`;
+      link.href = `http://localhost:81/Reshome/AppartSelect.php?id=${appartArray[i].announce_id}`;
 
       let img = document.createElement('img');
       img.src = './public/CSS/Assets/imgAppartsup.png';
