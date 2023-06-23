@@ -4,7 +4,7 @@
         <li class="info"><a href="http://localhost/Reshome/PageAppart.php">Apartment</a></li>
         <li class="info"><a href="">Contact</a></li>
         <li class=info-left-resp> <a href="http://localhost/Reshome/PageAppart.php">Apartment</a></li>
-        <li class="info-left-resp li-border-resp">Search <span class="img-li-border"><img src="./public/CSS/Assets/arrowdown.png" alt=""></span></li>
+        <li class="info-left-resp li-border-resp">Search</span></li>
     </ul>
 
     <img class="img-nav" src="./public/CSS/Assets/logo.svg" alt="">
@@ -36,6 +36,10 @@ a{
 }
 a:visited{
     color: white;
+}
+
+a:hover {
+    color: black;
 }
 
 .info-left{
@@ -75,8 +79,6 @@ a:visited{
 }
 
 .img-li-border{
-    margin-left: 15px;
-    margin-top: 5px;
 }
 
 .li-border:hover {

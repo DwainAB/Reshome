@@ -23,23 +23,24 @@ background-color: var(--primary-color)
 
 h1{
     font-family: 'saonara';
-    font-size: 9.625rem;
+    font-size: 9.625vw;
 }
 
 h2{
     font-family: 'saonara';
-    font-size: 5.5rem;
+    font-size: 5vw;
 }
 
 h3{
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 h4, .info-right>li, .info-left>li{
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 1vw;
 }
+
 
 li{
     list-style: none;
