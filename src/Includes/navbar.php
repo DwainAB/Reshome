@@ -11,7 +11,7 @@
 
     <ul class="info-right">
         <li class="info"><a class="info-admin" href="http://localhost/Reshome/PageAdmin.php"></a></li>
-        <li class="info li-border">Start a search <span class="img-li-border"><img src="./public/CSS/Assets/arrowdown.png" alt=""></span></li>
+        <li class="info li-border">Search</span></li>
         <li class="info info-login"><a href="http://localhost/Reshome/PageSignup.php">Login</a></li>
         <li class="info info-logout">Logout</li>
     </ul>
@@ -75,9 +75,6 @@ a:hover {
     border: 2px solid var(--primary-color);
     border-radius: 16px;
     width: 20%;
-}
-
-.img-li-border{
 }
 
 .li-border:hover {

@@ -35,7 +35,7 @@
             </div>
 
             <div class="register-left-div-btn">
-                <button class="register-left-btn" type="submit">Login</button>
+                <button class="register-left-btn" type="submit"></button>
             </div>
 
         </form>
