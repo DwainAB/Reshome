@@ -10,7 +10,7 @@
             <div class="container-img-info-menu">
                 <img src="./public/CSS/Assets/arrowleftadmin.png" alt="">
             </div>
-            <p class="text-info-menu-top">Back</p>
+            <a href="http://localhost/Reshome/index.php" class="text-info-menu-top">Back</a>
         </div>
 
         <div class="title-menu-top">DASHBOARD ADMIN</div>
@@ -23,11 +23,11 @@
 
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
-                <p class="text-link-content-page">OVERVIEW</p>
+                <a href="http://localhost/Reshome/PageAdmin.php" class="text-link-content-page">OVERVIEW</a>
             </div>
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
-                <p class="text-link-content-page">Announce</p>
+                <p href="http://localhost/Reshome/PageAppartAdmin.php" class="text-link-content-page">Announce</p>
             </div>
             <div class="container-link-content-page">
                 <div class="container-img-link"><img class="img-link-content-page" src="./public/CSS/Assets/logoappartadmin.png" alt=""></div>
@@ -40,7 +40,7 @@
         <div class="content-form">
             <h1 class="title-form">Add an apartment</h1>
 
-            <form action="" method="">
+            <form method="POST">
                 <div class="all-form-add-appart">
                     <div class="form-left">
 
@@ -87,8 +87,8 @@
 
                             <div class="img-form-add-appart">
                                 <div class="field-img-form-add-appart">
-                                    <label class="label-field-add-appart" for="price_apartment">Images of apartment</label><br />
-                                    <input class="input-field-add-appart-i custom-file-input" type="file" id="price_apartment" value="Import image" multiple>
+                                    <label class="label-field-add-appart" for="img_apartment">Images of apartment</label><br />
+                                    <input class="input-field-add-appart-i custom-file-input" type="file" id="img_apartment" value="Import image" multiple>
                                 </div>
                                 <div class="view-img-add-appart"></div>
                             </div>
@@ -97,8 +97,8 @@
 
                         <div class="form-right-bottom">
                             <div class="field-img-form-add-appart-d">
-                                <label class="label-field-add-appart" for="price_apartment">Description</label><br />
-                                <input class="input-field-add-appart-d" type="text" id="price_apartment">
+                                <label class="label-field-add-appart" for="description_apartment">Description</label><br />
+                                <input class="input-field-add-appart-d" type="text" id="description_apartment">
                             </div>
                         </div>
 
