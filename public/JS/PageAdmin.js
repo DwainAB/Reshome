@@ -1,3 +1,14 @@
+getInfoUser()
+  .then(function(data) {
+  console.log(data);
+    if (data.is_admin !== 1) {
+        window.location.href = 'http://localhost/Reshome/index.php';
+    }
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
 const appartArray = [];
 const usersArray = []
 let staticAppart = document.querySelector('.static-appart')
